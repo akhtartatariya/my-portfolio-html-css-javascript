@@ -15,10 +15,6 @@ section {
   min-height: 100vh;
 }
 /* Navbar Section  */
-/* #profile-def{
-  position: sticky;
-  top: 0;
-} */
 .logo {
   font-size: 2rem;
   padding: 0 1.5rem;
