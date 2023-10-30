@@ -1,15 +1,77 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  section{
+    margin: 0 1rem;
+  }
+  .nav-mar{
+    margin: 0 1rem !important;
+  }
+  #profile-pic,#img-about{
+    height:250px !important;
+    width:250px !important;
+  }
+  .about-container-con{
+    padding: 0.9rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-  .logo{
+  .logo {
     font-size: 1.3rem;
-
+  }
+  #profile-h1 {
+    font-size: 1.5rem;
+  }
+  .text-p {
+    font-size: 1rem;
+  }
+  .img-container {
+    margin-top: 6rem;
+  }
+  .text-h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: none;
+    text-underline-offset: 0rem;
+  }
+  h5 {
+    font-size: 1rem !important;
+  }
+  .p-color {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .about-container-ex {
+    gap: 1rem;
+  }
+  .h2-ex {
+    font-size: 1.3rem;
+    text-decoration-line: none;
+    text-underline-offset: 0;
+  }
+  .img-size {
+    height: 1.5rem;
+  }
+  .about-container-pro {
+    flex-direction: column;
+  }
+  #project-head {
+    margin-bottom: 5rem;
+  }
+  #contact-head {
+    margin-top: 7rem;
+  }
+  .about-container-pro {
+    gap: 0.5rem !important;
+  }
+  .about-container-con {
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   .arrow,
@@ -85,12 +147,9 @@
     gap: 1rem;
     flex-wrap: wrap;
   }
-  .detail-container-pro {
-    height: 400px;
-    width: 301px;
-  }
-  .inner-pro{
-    gap:0.5rem;
+
+  .inner-pro {
+    gap: 0.5rem;
   }
   .button {
     padding: 0.5rem;
