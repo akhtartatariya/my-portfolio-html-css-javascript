@@ -1,16 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  section{
+  section {
     margin: 0 1rem;
   }
-  .nav-mar{
+  .nav-mar {
     margin: 0 1rem !important;
   }
-  #profile-pic,#img-about{
-    height:250px !important;
-    width:250px !important;
+  #profile-pic,
+  #img-about {
+    height: 250px !important;
+    width: 250px !important;
   }
-  .about-container-con{
+  .about-container-con {
     padding: 0.9rem;
   }
 }
@@ -20,13 +21,16 @@
   .logo {
     font-size: 1.3rem;
   }
+  .nav-mar {
+    margin: 0 1rem !important;
+  }
   #profile-h1 {
     font-size: 1.5rem;
   }
   .text-p {
     font-size: 1rem;
   }
-  .img-container {
+  #img-con {
     margin-top: 6rem;
   }
   .text-h1 {
@@ -59,10 +63,10 @@
     flex-direction: column;
   }
   #project-head {
-    margin-bottom: 5rem;
-  }
+    margin-bottom: 8rem;
+    }
   #contact-head {
-    margin-top: 7rem;
+    margin-top: 14rem;
   }
   .about-container-pro {
     gap: 0.5rem !important;
@@ -123,12 +127,12 @@
   .section-container {
     flex-direction: column;
   }
-  .profile-container {
+  /* .profile-container {
     height: 70vh;
   }
   #profile {
     height: 80vh;
-  }
+  } */
   #about-head {
     margin-bottom: 4rem;
   }
