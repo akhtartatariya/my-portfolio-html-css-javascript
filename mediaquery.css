@@ -14,6 +14,28 @@
   .about-container-con {
     padding: 0.9rem;
   }
+  ul li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-underline-offset:0 !important;
+  }
+  #profile-h1 {
+    font-size: 2rem !important; 
+  }
+  .text-p {
+    font-size: 1.3rem !important;
+  }
+  #pro-btn{
+    padding: 1rem !important;
+    font-size: 0.8rem !important;
+    width: 8rem !important; 
+  }
+  .img-size {
+    height: 1.9rem !important;
+  }
+  .details-container-ex{
+    padding: 1rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -25,16 +47,15 @@
     margin: 0 1rem !important;
   }
   #profile-h1 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
   .text-p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   #img-con {
     margin-top: 6rem;
   }
   .text-h1 {
-    font-weight: bolder;
     font-size: 2rem;
     text-decoration: none;
     text-underline-offset: 0rem;
@@ -127,12 +148,12 @@
   .section-container {
     flex-direction: column;
   }
-  /* .profile-container {
+  .profile-container {
     height: 70vh;
   }
   #profile {
     height: 80vh;
-  } */
+  }
   #about-head {
     margin-bottom: 4rem;
   }
